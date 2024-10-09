@@ -3,6 +3,7 @@ import { Inter, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
 
 // import { Toaster } from '@/components/ui/toaster'
+import GoogleAdsense from "@/components/shared/GoogleAdsense";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const ibmPlexSerif = IBM_Plex_Serif({
@@ -28,6 +29,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <GoogleAdsense pId="4918245325726805" />
     </html>
   );
 }
