@@ -13,7 +13,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Url Shortener",
+  title: "Url Shortener, Branded Short Links & Analytics | ShrinkyURL",
   description: "Generating a tiny url with ease",
 };
 
